@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: cesarjn-custapp
+  host: cesarjn-custapp
+  disk_quota: 1024M
+  services:
+  - cesarjn-custapp-cloudantNoSQLDB
